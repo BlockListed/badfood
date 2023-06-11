@@ -72,7 +72,7 @@ const InformationComponent: Component = () => {
   } else {
     return (
       <div class="bg-green-300 h-full">
-        <h1 class="text-center text-2xl font-bold">Food might be good.</h1>
+        <h1 class="text-center text-2xl font-bold">Food is probably good.</h1>
         <Show when={!food.loading}>
           {data[food()]}
         </Show>
