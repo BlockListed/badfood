@@ -1,2 +1,5 @@
 uvicorn
 fastapi
+pillow
+tensorflow
+python-multipart
